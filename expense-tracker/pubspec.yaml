@@ -1,0 +1,52 @@
+name: my_first_app
+
+description: "A well-structured and functional Flutter project."
+publish_to: 'none' # Remove if you intend to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.4.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.4  # Keep only one cupertino_icons dependency
+  font_awesome_flutter: ^10.6.0  # Optional, for font icons
+  fl_chart: ^0.69.0  # Optional, for data visualization
+  intl: ^0.20.0
+  flutter_colorpicker: ^1.1.0
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0  # Recommended for code analysis
+
+# Remove unnecessary comments, unless they provide specific guidance
+
+flutter:
+  uses-material-design: true
+  assets:
+    - asset_icon/beauty.png
+    - asset_icon/electricity.png
+    - asset_icon/fuel.png
+    - asset_icon/investment.png
+    - asset_icon/medicine.png
+    - asset_icon/school.png
+    - asset_icon/travel.png
+
+
+# Consider adding assets (images, fonts) in a separate section:
+# assets:
+#   - images/my_image.png
+#   - fonts/my_font.ttf
+
+# Fonts can be organized with family and font descriptors:
+# fonts:
+#   - family: MyFont
+#     fonts:
+#       - asset: fonts/MyFont-Regular.ttf
+#       - asset: fonts/MyFont-Bold.ttf
+#         weight: 700
